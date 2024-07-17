@@ -1,0 +1,9 @@
+.header{
+    width: 100%;
+    background-color: #ffaff2;
+}
+.header img{
+    width: 55px;
+    padding: 5px;
+    margin-left:25px ;
+}

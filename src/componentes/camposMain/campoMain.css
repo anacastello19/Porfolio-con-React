@@ -1,0 +1,9 @@
+.campo-main{
+    display: flex;
+    margin: 3% 5% ;
+}
+
+.campo-main img{
+    width: 25%;
+    margin-right: 100px;
+}
