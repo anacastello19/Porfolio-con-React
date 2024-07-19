@@ -1,0 +1,28 @@
+
+.footer {
+    display: inline-block;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+    background-image: url('/public/img/fondo-futurista.jpg');
+}
+
+.footername {
+    margin: 12px;
+    color: #d39dea;
+}
+
+.contacto {
+    display: inline-flex;
+    list-style: none;
+
+
+}
+
+.footer img {
+    margin: 10px 10px 6px 10px;
+    height: 40px;
+    background-color: #d39dea;
+    padding: 1px;
+    border-radius: 10px;
+}

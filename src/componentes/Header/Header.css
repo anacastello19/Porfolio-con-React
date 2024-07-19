@@ -1,9 +1,31 @@
 .header{
     width: 100%;
-    background-color: #ffaff2;
+    background-image: url('/public/img/fondocyber.jpg');
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh;
 }
+
 .header img{
-    width: 55px;
-    padding: 5px;
-    margin-left:25px ;
+    width: 20vh;
+    margin-left: 10vh;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1px;
+}
+.nav-list span {
+    font-size: 12px;
+    font-weight: 900 bold;
+    color: #79FFA0;
+
 }

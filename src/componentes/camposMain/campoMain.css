@@ -6,4 +6,12 @@
 .campo-main img{
     width: 25%;
     margin-right: 100px;
+    border-radius: 15px;
+}
+
+.title{
+    color: #d39dea;
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-left: 15px;
 }
