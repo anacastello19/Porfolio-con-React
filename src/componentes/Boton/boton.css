@@ -1,7 +1,7 @@
 .btn{
     background-color: transparent;
-    margin-right:15px;
-    margin-top: 1.5vh;
+    margin-right:19px;
+    margin-top: 4vh;
     border:none;
     display: inline;
 }
@@ -13,6 +13,6 @@
     color: black;
     font-weight: 900;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     
 }

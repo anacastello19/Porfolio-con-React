@@ -1,13 +1,13 @@
 .campo-main{
     display: flex;
-    margin: 3% 5% ;
+    margin: 5% 5% ;
     /* border: 15px solid white; */
 
 }
 
 .campo-main img{
-    width: 25%;
-    margin-right: 100px;
+    width: 35%;
+    margin-right: 55px;
     border-radius: 15px;
     box-shadow: 1px 1px 19px 3px #d39dea;
 }
@@ -21,4 +21,5 @@
 .campo-main p{
     margin-top: 20px;
     color: aliceblue;
+    font-size: 1.15vw;
 }

@@ -5,7 +5,7 @@ const CampoMain=({img,title, descripcion, repo, demo})=>{
         <img src={img}/>
         <div>
             <h3 className="title">{title}</h3>
-            <p>{descripcion}</p>
+            <p >{descripcion}</p>
 
             <div className="btn">     
             <Boton

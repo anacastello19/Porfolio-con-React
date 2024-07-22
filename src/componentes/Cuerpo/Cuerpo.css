@@ -10,10 +10,11 @@ body{
     background-color: #0D0521;
 }
 .cuerpo{
-    margin: 15px ;
+    margin: 55px ;
 }
 .cuerpo h2{
+    display: inline;
     color: aliceblue;
     margin: 35px 55px;
-    font-size: 25px;
+    font-size: 25px; 
 }
