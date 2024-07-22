@@ -1,14 +1,23 @@
 import "./campoMain.css"
-
-const CampoMain=(props)=>{
+import { Boton } from "../Boton/boton";
+const CampoMain=({img,title, descripcion, repo, demo})=>{
     return <div className="campo-main">
-        <img src={props.img}/>
+        <img src={img}/>
         <div>
-            <h2 className="title">{props.title}</h2>
-            <p>{ props.descripcion}</p>
-        </div>
-        
+            <h3 className="title">{title}</h3>
+            <p>{descripcion}</p>
 
+            <div className="btn">     
+            <Boton
+                enlace={repo}
+                name='Repositorio'
+            />
+            <Boton
+                enlace={demo}
+                name='Demo'
+            />
+            </div>   
+        </div>
     </div>
 }
 

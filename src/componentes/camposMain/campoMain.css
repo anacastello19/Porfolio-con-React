@@ -1,17 +1,24 @@
 .campo-main{
     display: flex;
     margin: 3% 5% ;
+    /* border: 15px solid white; */
+
 }
 
 .campo-main img{
     width: 25%;
     margin-right: 100px;
     border-radius: 15px;
+    box-shadow: 1px 1px 19px 3px #d39dea;
 }
 
 .title{
     color: #d39dea;
     font-size: 2vw;
     margin-top: 20px;
-    margin-left: 15px;
+}
+
+.campo-main p{
+    margin-top: 20px;
+    color: aliceblue;
 }

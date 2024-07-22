@@ -1,9 +1,13 @@
 import './Header.css'
+// import {Link} from 'react-dom'
 
 function Header(){
     return <header className="header">
         <img src='/img/logo.jpeg'/>
         <ul class="nav-list">
+            {/* <Link to='/sobreMi'>
+                <li>Sobre Mi</li>
+            </Link> */}
             <li><a href="https://anacastello19.github.io/Porfolio/"><span>Sobre Mi</span></a></li>
             <li><a href="https://anacastello19.github.io/Porfolio/skills.html"><span>Skills</span></a></li>
             <li><a href="https://anacastello19.github.io/Porfolio/hobbies.html"><span>Hobbies</span></a></li>

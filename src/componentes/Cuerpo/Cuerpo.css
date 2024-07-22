@@ -11,6 +11,9 @@ body{
 }
 .cuerpo{
     margin: 15px ;
-    
 }
-
+.cuerpo h2{
+    color: aliceblue;
+    margin: 35px 55px;
+    font-size: 25px;
+}
