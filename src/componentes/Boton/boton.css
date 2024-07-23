@@ -1,6 +1,6 @@
 .btn{
     background-color: transparent;
-    margin-right:19px;
+    margin-right:1.9vh;
     margin-top: 4vh;
     border:none;
     display: inline;
@@ -12,7 +12,18 @@
     background-color: #d39dea;
     color: black;
     font-weight: 900;
-    border-radius: 15px;
-    padding: 10px 15px;
-    
+    border-radius: 1.5vh;
+    padding:  1.5vh;
+    border: 0.1vh solid rgb(129, 46, 181);
+}
+@media screen and (max-width: 900px) {
+    .btn {
+        display: flex;
+        margin-top: 1vh;
+    }
+
+    .enlace{
+        font-size: 1.5vh;
+        padding: 1vh;
+    }
 }

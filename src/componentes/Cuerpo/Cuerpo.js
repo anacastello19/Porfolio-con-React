@@ -32,8 +32,8 @@ const Cuerpo = () =>{
                 descripcion='Este proyecto es un desafio de encriptar y desencriptar palabras.
                     Pagina responsive aplicando buenas practicas.
                     Tecnologias utilizadas: HTML5, CSS3 y JavaScript.'
-                repo=''
-                demo='' 
+                repo='https://github.com/anacastello19/Encriptador'
+                demo='https://anacastello19.github.io/Encriptador/' 
             />     
 
             <CampoMain
@@ -41,7 +41,7 @@ const Cuerpo = () =>{
                 img="/img/barberia.jpeg"
                 descripcion='Creacion de página principal, contacto y productos.
                     Tecnologías utilizadas: HTML5 y CSS3.'
-                repo=''
+                repo='https://github.com/anacastello19/Barberia-Alura'
                 demo='' 
             /> 
             <CampoMain
@@ -49,8 +49,8 @@ const Cuerpo = () =>{
                 img="/img/numsecreto.jpeg"
                 descripcion='Creacion de página principal, contacto y productos.
                     Tecnologías utilizadas: HTML5 y CSS3.'
-                repo=''
-                demo='' 
+                repo='https://github.com/anacastello19/JuegoNumeroSecreto'
+                demo='https://anacastello19.github.io/JuegoNumeroSecreto/' 
             />  
             <CampoMain
                 title='EcoEncuentro-Inkua'
@@ -58,8 +58,8 @@ const Cuerpo = () =>{
                 descripcion='Plataforma que dedica a fomentar la participación en actividades de voluntariado relacionadas con el medio ambiente.
                         Planificamos y diseñamos la pagina con Figma, generando pagina de registro, inicio, inicio de sesión, etc.
                         Tecnologías utilizadas: HTML, CSS, JavaScript y Boostrap.'
-                repo=''
-                demo='' 
+                repo='https://github.com/xNatzhu/EcoEncuentro-Inkua'
+                demo='https://eco-encuentro.netlify.app/' 
             />  
         </div>
 

@@ -13,8 +13,20 @@ body{
     margin: 55px ;
 }
 .cuerpo h2{
-    display: inline;
     color: aliceblue;
-    margin: 35px 55px;
-    font-size: 25px; 
-}
+    margin-top: 70px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    text-shadow: 0px 2px 15px #bf94d1;
+ }
+
+ @media screen and (max-width: 900px) {
+    .cuerpo {
+        display: block;
+    }
+
+    .cuerpo p{
+        font-size: 1.5vw;
+    }
+
+ }
